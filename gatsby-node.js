@@ -17,12 +17,12 @@
 //   }
 // };
 
-let counter = 0;
+// let counter = 0;
 
 exports.createPages = () => {
-  counter++;
+  // counter++;
 
-  if (counter >= 2) {
-    throw new Error(`that should be inc build`);
-  }
+  // if (counter >= 2) {
+  throw new Error(`that should be inc build`);
+  // }
 };
